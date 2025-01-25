@@ -1,0 +1,42 @@
+# Ignorera .NET-specifika filer och mappar
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.log
+
+# Ignorera pakethanteringsfiler
+packages/
+*.nupkg
+
+# Ignorera IDE-specifika filer (Visual Studio Code, Rider, etc.)
+.idea/
+.vscode/
+
+# Ignorera lokala inställningsfiler
+appsettings.Development.json
+
+# Ignorera bygg- och publiceringsfiler
+publish/
+artifacts/
+
+# Ignorera miljövariabler och känslig information
+.env
+*.env
+
+# Ignorera testresultat och loggar
+TestResults/
+*.trx
+*.log
+
+# Ignorera temporära filer
+*.tmp
+*.temp
+
+# Ignorera användarspecifika filer
+*.userprefs
+
+# Ignorera Docker-relaterade filer (om du använder Docker)
+docker-compose.*.yml
+docker-compose.override.yml
